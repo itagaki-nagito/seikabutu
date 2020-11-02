@@ -1,0 +1,130 @@
+div#A
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(183, 213, 224);
+    border: 2px rgb(183, 213, 224) solid;
+    background-color: rgba(245, 222, 179, 0.322);
+}
+article
+{ text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10px;
+}
+body
+{
+    background-color: rgb(183, 213, 224);
+     ;
+}
+ul{
+    display:inline-block;
+    width: 120px;
+    margin:auto;
+    padding:0;
+    border: 2px rgb(183, 213, 224) solid;
+    background-color: skyblue;
+  
+}
+div#prof
+{display:inline-block;
+    font-size: 1em;
+    width: 180px;
+    margin: 0;
+    border: 2px solid #ccc;
+    background-color: skyblue;
+    margin-top: 20px;
+}
+div#B
+{display: block;
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 2000px;
+    background-color:#f4f76f;
+    float: right;
+    border: solid 2px white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+div
+{
+    padding: auto;
+}
+.note {float: right;
+    overflow: visible;
+    width: 1100px;
+    height:500px;
+    padding:0 1em;
+    background: linear-gradient(#ccc 1px, transparent 1px) #f4f76f;
+    background-size: auto 2.5em;
+    line-height: 2.5em;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top: 20px;
+    overflow: scroll;
+  }
+  header
+  {
+      background-color: steelblue;
+      background-image: url(IMG_5154.jpg);
+      height: 400px;
+      
+  }
+  h5{padding: 0;
+    margin: 0;
+      float: right;
+  }
+h4{padding: 0;
+    margin: 0;
+    
+    width: 100px;
+}
+  div#message
+  { border: solid 2px #ccc;
+    width: 180px;
+
+  }
+  .pochitto_btn_blue {
+	display: inline-block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background:#0C88CA;
+	border-bottom:4px solid #005691;
+	border-radius: 4px;
+	transition: .0s;
+}
+.pochitto_btn_blue:hover {
+	 cursor: pointer;
+	 text-decoration: none;
+	 background:#005691;
+	 transform: translate3d(0, 4px, 0);
+	 transition: .0s;
+	 border-bottom: none;
+}
+footer
+{
+    margin-top: 70px;
+   
+  width: 100%;
+  height:0px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #8eb4c0;
+}
+ul.commentlist
+{width: auto;
+    height:80px;
+    overflow: scroll;
+}
